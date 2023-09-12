@@ -1,0 +1,10 @@
+# package directories
+node_modules
+
+# env
+__env
+_env
+.env
+
+# cache
+.cache
