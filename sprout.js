@@ -1,5 +1,7 @@
 import puppeteer from 'puppeteer'
 import 'dotenv/config'
+import chromium from 'chrome-aws-lambda'
+
 
 export default class Sprout {
     constructor() {
@@ -16,6 +18,7 @@ export default class Sprout {
         const browser = await puppeteer.launch({
             headless: "new",
             defaultViewport: { width: 1720, height: 720 },
+            executablePath: await chromium.executablePath,
             args: ['--disable-extensions', "--force-device-scale-factor=1", "--window-position=0,0, --no-sandbox --disable-setuid-sandbox"],
         });
         const page = await browser.newPage();
