@@ -126,3 +126,6 @@ export default class Sprout {
         await browser.close();
     }
 }
+
+new Sprout().initializeLogin()
+new Sprout().initializeLogout()
