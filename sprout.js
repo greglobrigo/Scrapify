@@ -7,7 +7,7 @@ async function initializeLogin() {
     const username = process.env.USER
     const password = process.env.PASSWORD
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: "new",
         defaultViewport: { width: 1720, height: 720 },
         args: ['--disable-extensions', "--force-device-scale-factor=1", "--window-position=0,0"],
     });
@@ -37,12 +37,16 @@ async function initializeLogin() {
     await page.waitForSelector('.large-image')
     await page.evaluate(() => { document.querySelector('img.large-image').click() }, { delay: 200 }); //Click on Clock Icon
     await new Promise(resolve => setTimeout(resolve, 3000));
+
+    //Handle Pop Up and Close New Tab
     try {
         await page.click('#pendo-button-4bc214b9')
         await new Promise(resolve => setTimeout(resolve, 5000));
         const allPages = await browser.pages()
         await allPages[allPages.length - 1].close()
     } catch { }
+
+    //Confirm Login
     await new Promise(resolve => setTimeout(resolve, 2000));
     await page.click('#dashboard-container-fluid > div.col-md-12 > div > div.col-md-8 > div > div.col-md-6.widget.clearfix > div > div.widget-title.widget-2.parent > div > div.clock-pop-up > ul > li:nth-child(1)') //Click on Log me In
     await new Promise(resolve => setTimeout(resolve, 3000));
@@ -64,7 +68,7 @@ async function initializeLogout() {
     const username = process.env.USER
     const password = process.env.PASSWORD
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: "new",
         defaultViewport: { width: 1720, height: 720 },
         args: ['--disable-extensions', "--force-device-scale-factor=1", "--window-position=0,0"],
     });
@@ -94,6 +98,8 @@ async function initializeLogout() {
     await page.waitForSelector('.large-image')
     await page.evaluate(() => { document.querySelector('img.large-image').click() }, { delay: 200 }); //Click on Clock Icon
     await new Promise(resolve => setTimeout(resolve, 3000));
+
+    //Handle Pop Up and Close New Tab
     try {
         await page.click('#pendo-button-4bc214b9')
         await new Promise(resolve => setTimeout(resolve, 5000));
@@ -101,24 +107,13 @@ async function initializeLogout() {
         await allPages[allPages.length - 1].close()
     } catch { }
 
+
+    //Confirm Logout
     await page.click('#dashboard-container-fluid > div.col-md-12 > div > div.col-md-8 > div > div.col-md-6.widget.clearfix > div > div.widget-title.widget-2.parent > div > div.clock-pop-up > ul > li:nth-child(2)') //Click on Log me Out
     await new Promise(resolve => setTimeout(resolve, 3000));
     await page.click('body > div.bootbox.modal.fade.in > div > div > div.modal-footer > button.btn.our-button')//Click on Yes
-
-    //await new Promise(resolve => setTimeout(resolve, 5000));
-    // await page.click('body > div.bootbox.modal.fade.in > div > div > div.modal-footer > button.btn.our-button', { delay: 200 })
-    // await new Promise(resolve => setTimeout(resolve, 2000));
-    // await page.click('#dashboard-container-fluid > div.col-md-12 > div > div.col-md-8 > div > div.col-md-6.widget.clearfix > div > div.widget-title.widget-2.parent > div > div.clock-pop-up > ul > li:nth-child(1)', { delay: 200 })
-    // await new Promise(resolve => setTimeout(resolve, 3000));
-    // await page.click('body > div.bootbox.modal.fade.in > div > div > div.modal-footer > button.btn.our-button', { delay: 200 })
-    // await new Promise(resolve => setTimeout(resolve, 3000));
-    // await page.click('body > div.bootbox.modal.fade.bootbox-alert.in > div > div > div.modal-footer > button', { delay: 200 })
-    // await new Promise(resolve => setTimeout(resolve, 3000));
-    // await page.click('#Emp-Name', { delay: 200 })
-    // await new Promise(resolve => setTimeout(resolve, 3000));
-    // await page.click('#LinkButton1', { delay: 200 })
-    console.log('done')
-    //await browser.close();
+    console.log('Logged Out Successfully')
+    await browser.close();
 }
 //initializeLogin()
 initializeLogout()
