@@ -2,7 +2,7 @@ import cron from 'node-cron';
 import Sprout from './sprout.js';
 
 //Run Every 7:30 AM Monday to Friday
-export const Login = cron.schedule('30 7 * * 1-5', () => {
+export const Login = cron.schedule('30 8 * * 1-5', () => {
     new Sprout().initializeLogin();
 },{
     scheduled: true,
