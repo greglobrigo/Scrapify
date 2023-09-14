@@ -57,23 +57,20 @@ export default class Sprout {
         //Confirm Login
         await new Promise(resolve => setTimeout(resolve, 2000));
         await page.click('#dashboard-container-fluid > div.col-md-12 > div > div.col-md-8 > div > div.col-md-6.widget.clearfix > div > div.widget-title.widget-2.parent > div > div.clock-pop-up > ul > li:nth-child(1)') //Click on Log me In
-        console.log('reached last step before login and exit')
-        // await new Promise(resolve => setTimeout(resolve, 3000));
-        // await page.click('body > div.bootbox.modal.fade.in > div > div > div.modal-footer > button.btn.our-button')//Click on Yes
-        // await new Promise(resolve => setTimeout(resolve, 3000));
-        // await page.click('body > div.bootbox.modal.fade.bootbox-alert.in > div > div > div.modal-footer > button') //Click on Yes on the alert prompt
-        // await new Promise(resolve => setTimeout(resolve, 3000));
-        // await page.click('#Emp-Name') //Click on Employee Name
-        // await new Promise(resolve => setTimeout(resolve, 3000));
-        // await page.click('#LinkButton1', { delay: 200 }) //Click on Logout
-        // await page.waitForNavigation({ waitUntil: 'networkidle0' })
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        await page.click('body > div.bootbox.modal.fade.in > div > div > div.modal-footer > button.btn.our-button')//Click on Yes
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        await page.click('body > div.bootbox.modal.fade.bootbox-alert.in > div > div > div.modal-footer > button') //Click on Yes on the alert prompt
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        await page.click('#Emp-Name') //Click on Employee Name
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        await page.click('#LinkButton1', { delay: 200 }) //Click on Logout
+        await page.waitForNavigation({ waitUntil: 'networkidle0' })
         await browser.close();
     }
 
 
     async initializeLogout() {
-        console.log('Logging out...')
-        return
         const url = process.env.URL
         const username = process.env.USER
         const password = process.env.PASSWORD
@@ -126,6 +123,3 @@ export default class Sprout {
         await browser.close();
     }
 }
-
-new Sprout().initializeLogin()
-//new Sprout().initializeLogout()
