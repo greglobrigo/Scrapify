@@ -10,7 +10,7 @@ export default class Sprout {
     }
 
     async initializeLogin() {
-        console.log('Initializing Sprout Login')
+        console.log('Initializing Sprout Login...')
 
         const url = process.env.URL
         const username = process.env.USER
@@ -35,14 +35,14 @@ export default class Sprout {
         const randomClickY4 = Math.floor(Math.random() * 1000) + 1
         await page.mouse.click(randomClickX1, randomClickY2, { button: 'left' })
         await page.mouse.click(randomClickX3, randomClickY4, { button: 'left' })
-        console.log('Keying in Username and Password')
+        console.log('Keying in Username and Password...')
 
         //Key in Username and Password
         await page.type('#txtUsername', `${username}`, { delay: 100 });
         await page.type('#txtPassword', password, { delay: 100 });
         await new Promise(resolve => setTimeout(resolve, 1000));
         await page.click('#btnLogIn', { delay: 200 })
-        console.log('Logged In to Sprout Portal')
+        console.log('Logged In to Sprout Portal!')
 
         //Logged in to portal
         await new Promise(resolve => setTimeout(resolve, 5000));
@@ -63,20 +63,23 @@ export default class Sprout {
         await page.click('#dashboard-container-fluid > div.col-md-12 > div > div.col-md-8 > div > div.col-md-6.widget.clearfix > div > div.widget-title.widget-2.parent > div > div.clock-pop-up > ul > li:nth-child(1)') //Click on Log me In
         await new Promise(resolve => setTimeout(resolve, 3000));
         await page.click('body > div.bootbox.modal.fade.in > div > div > div.modal-footer > button.btn.our-button')//Click on Yes
-        console.log(`Timed In Successfully at ${new Date()}`)
+        console.log(`Timed In Successfully at ${new Date().toLocaleString('en-US', { timeZone: 'Asia/Manila', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true })}`)
         await new Promise(resolve => setTimeout(resolve, 3000));
         await page.click('body > div.bootbox.modal.fade.bootbox-alert.in > div > div > div.modal-footer > button') //Click on Yes on the alert prompt
         await new Promise(resolve => setTimeout(resolve, 3000));
+        console.log('Logging Out of Sprout Portal...')
         await page.click('#Emp-Name') //Click on Employee Name
         await new Promise(resolve => setTimeout(resolve, 3000));
         await page.click('#LinkButton1', { delay: 200 }) //Click on Logout
         await page.waitForNavigation({ waitUntil: 'networkidle0' })
+        console.log('Logged Out Successfully')
         await browser.close();
+        console.log('Browser Closed')
     }
 
 
     async initializeLogout() {
-        console.log('Initializing Sprout Logout')
+        console.log('Initializing Sprout Logout...')
 
         const url = process.env.URL
         const username = process.env.USER
@@ -101,14 +104,14 @@ export default class Sprout {
         const randomClickY4 = Math.floor(Math.random() * 1000) + 1
         await page.mouse.click(randomClickX1, randomClickY2, { button: 'left' })
         await page.mouse.click(randomClickX3, randomClickY4, { button: 'left' })
-        console.log('Keying in Username and Password')
+        console.log('Keying in Username and Password...')
 
         //Key in Username and Password
         await page.type('#txtUsername', `${username}`, { delay: 100 });
         await page.type('#txtPassword', password, { delay: 100 });
         await new Promise(resolve => setTimeout(resolve, 1000));
         await page.click('#btnLogIn', { delay: 200 })
-        console.log('Logged In to Sprout Portal')
+        console.log('Logged In to Sprout Portal!')
 
         //Logged in to portal
         await new Promise(resolve => setTimeout(resolve, 5000));
@@ -128,8 +131,9 @@ export default class Sprout {
         await page.click('#dashboard-container-fluid > div.col-md-12 > div > div.col-md-8 > div > div.col-md-6.widget.clearfix > div > div.widget-title.widget-2.parent > div > div.clock-pop-up > ul > li:nth-child(2)') //Click on Log me Out
         await new Promise(resolve => setTimeout(resolve, 3000));
         await page.click('body > div.bootbox.modal.fade.in > div > div > div.modal-footer > button.btn.our-button')//Click on Yes
-        console.log(`Timed Out Successfully at ${new Date()}`)
+        console.log(`Timed Out Successfully at ${new Date().toLocaleString('en-US', { timeZone: 'Asia/Manila', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true })}`)
         console.log('Logged Out Successfully')
         await browser.close();
+        console.log('Browser Closed')
     }
 }
