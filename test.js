@@ -15,6 +15,8 @@ async function testPuppeteer(){
         const page = await browser.newPage();
         await page.goto(`${url}`, { waitUntil: 'load' });
         await new Promise(resolve => setTimeout(resolve, 3000));
+        //take snapshot
+        await page.screenshot({path: 'example.png'});
         console.log('Sprout Page Loaded')
 
         //Login Page Action
