@@ -64,15 +64,15 @@ export default class Sprout {
         await new Promise(resolve => setTimeout(resolve, 3000));
         await page.click('body > div.bootbox.modal.fade.in > div > div > div.modal-footer > button.btn.our-button')//Click on Yes
         console.log(`Timed In Successfully at ${new Date().toLocaleString('en-US', { timeZone: 'Asia/Manila', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true })}`)
-        await new Promise(resolve => setTimeout(resolve, 3000));
-        await page.click('body > div.bootbox.modal.fade.bootbox-alert.in > div > div > div.modal-footer > button') //Click on Yes on the alert prompt
-        await new Promise(resolve => setTimeout(resolve, 3000));
-        console.log('Logging Out of Sprout Portal...')
-        await page.click('#Emp-Name') //Click on Employee Name
-        await new Promise(resolve => setTimeout(resolve, 3000));
-        await page.click('#LinkButton1', { delay: 200 }) //Click on Logout
-        await page.waitForNavigation({ waitUntil: 'networkidle0' })
-        console.log('Logged Out Successfully')
+        // await new Promise(resolve => setTimeout(resolve, 3000));
+        // await page.click('body > div.bootbox.modal.fade.bootbox-alert.in > div > div > div.modal-footer > button') //Click on Yes on the alert prompt
+        // await new Promise(resolve => setTimeout(resolve, 3000));
+        // console.log('Logging Out of Sprout Portal...')
+        // await page.click('#Emp-Name') //Click on Employee Name
+        // await new Promise(resolve => setTimeout(resolve, 3000));
+        // await page.click('#LinkButton1', { delay: 200 }) //Click on Logout
+        // await page.waitForNavigation({ waitUntil: 'networkidle0' })
+        // console.log('Logged Out Successfully')
         await browser.close();
         console.log('Browser Closed')
     }
