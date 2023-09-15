@@ -1,0 +1,7 @@
+2023/09/11-10:00:26.218 4f68 Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_v--1va9kuf28a4g5soofe9qdh9dr61na4vgccns10oonnn9vlul1lv4.vscode-cdn.net_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/11-10:00:26.219 4f68 Recovering log #3
+2023/09/11-10:00:26.219 4f68 Reusing old log C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_v--1va9kuf28a4g5soofe9qdh9dr61na4vgccns10oonnn9vlul1lv4.vscode-cdn.net_0.indexeddb.leveldb/000003.log 
+2023/09/11-12:00:27.057 1e28 Level-0 table #5: started
+2023/09/11-12:00:27.059 1e28 Level-0 table #5: 985 bytes OK
+2023/09/11-12:00:27.060 1e28 Delete type=0 #3
+2023/09/11-12:00:27.060 1e28 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

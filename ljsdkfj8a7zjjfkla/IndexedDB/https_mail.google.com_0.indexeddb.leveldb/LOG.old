@@ -1,0 +1,6 @@
+2023/09/15-03:26:13.121 a40 Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/15-03:26:13.121 a40 Recovering log #138
+2023/09/15-03:26:13.132 a40 Reusing old log C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/000138.log 
+2023/09/15-03:26:24.820 7580 Level-0 table #143: started
+2023/09/15-03:26:24.831 7580 Level-0 table #143: 1813585 bytes OK
+2023/09/15-03:26:24.832 7580 Delete type=0 #138

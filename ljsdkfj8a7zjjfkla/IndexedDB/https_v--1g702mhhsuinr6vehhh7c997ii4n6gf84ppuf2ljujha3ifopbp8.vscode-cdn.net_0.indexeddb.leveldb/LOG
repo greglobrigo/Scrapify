@@ -1,0 +1,6 @@
+2023/09/11-00:40:39.149 8768 Creating DB C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_v--1g702mhhsuinr6vehhh7c997ii4n6gf84ppuf2ljujha3ifopbp8.vscode-cdn.net_0.indexeddb.leveldb since it was missing.
+2023/09/11-00:40:39.151 8768 Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_v--1g702mhhsuinr6vehhh7c997ii4n6gf84ppuf2ljujha3ifopbp8.vscode-cdn.net_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/11-00:41:19.949 5d84 Level-0 table #5: started
+2023/09/11-00:41:19.949 5d84 Level-0 table #5: 987 bytes OK
+2023/09/11-00:41:19.950 5d84 Delete type=0 #3
+2023/09/11-00:41:19.950 5d84 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

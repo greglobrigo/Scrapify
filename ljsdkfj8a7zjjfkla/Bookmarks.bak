@@ -1,0 +1,149 @@
+{
+   "checksum": "61bdd5217fb32919efff66c161a7d8ab",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13279028245771595",
+            "date_last_used": "0",
+            "guid": "6e5c720f-8531-4b2c-989c-2bfa7bb8ca34",
+            "id": "5",
+            "name": "Avion School | Virtually",
+            "type": "url",
+            "url": "https://app.tryvirtually.com/webdevelopment/event/Gf9cG1FvO6mMCIiqzRaB"
+         }, {
+            "date_added": "13310282509232318",
+            "date_last_used": "13331100465025564",
+            "guid": "73256ffc-3dc8-473a-96a9-677c70887522",
+            "id": "6",
+            "name": "Apache Guacamole",
+            "type": "url",
+            "url": "https://avocado.smic-itss.com/guacamole/#/"
+         }, {
+            "date_added": "13310282524840299",
+            "date_last_used": "0",
+            "guid": "46801e11-981d-4b2e-9e3c-ddbc34ed49b2",
+            "id": "7",
+            "name": "CloudWatch Management Console",
+            "type": "url",
+            "url": "https://ap-southeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-1#logsV2:log-groups/log-group/$252Fecs$252Fscmc-sia-finance-api-td-prod"
+         }, {
+            "date_added": "13320749537015756",
+            "date_last_used": "0",
+            "guid": "bc9b19d3-4c38-4baa-86b7-28a51a55301f",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "APP MFF LOCAL",
+            "type": "url",
+            "url": "http://app.mff.local/"
+         }, {
+            "date_added": "13320499136666250",
+            "date_last_used": "0",
+            "guid": "783c8f04-521a-4df0-ba26-cfcdbaad8e9f",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Bituin.io",
+            "type": "url",
+            "url": "https://bituin.io/login"
+         }, {
+            "date_added": "13320617714487274",
+            "date_last_used": "13331926937340156",
+            "guid": "01f8d783-c429-46c6-92be-070a0875e15e",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MFF Website Revamp – Figma",
+            "type": "url",
+            "url": "https://www.figma.com/file/SF82AQ3SmbmDJWOdybH3t6/MFF-Website-Revamp"
+         }, {
+            "date_added": "13321626878566794",
+            "date_last_used": "0",
+            "guid": "94af44ca-4475-460d-85a9-73b508b5634a",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MFF board - Agile Board - Jira",
+            "type": "url",
+            "url": "https://gawaitsolutions.atlassian.net/jira/software/c/projects/MFF/boards/1?selectedIssue=MFF-2"
+         }, {
+            "date_added": "13322153466620742",
+            "date_last_used": "0",
+            "guid": "64dde178-83b6-4fcd-92a3-afdc94a37ee7",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MFF Shop Features and Timeline Projection - Google Docs",
+            "type": "url",
+            "url": "https://docs.google.com/document/d/1m_KJBrPc2kYTK4jKtIDCHQL3gwKVyotaL7-nXqbwpH4/edit"
+         }, {
+            "date_added": "13322153469884228",
+            "date_last_used": "0",
+            "guid": "716466d0-f8e4-42ae-9acc-b6cf4f2b35de",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MFF DB Schema - Google Sheets",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1GPBIJOqe-uF57KpQXbPv_ELCHFmjvZ_SrS10c0dOtRo/edit#gid=887363429"
+         }, {
+            "date_added": "13323320684544829",
+            "date_last_used": "13334989828721720",
+            "guid": "f3701f6c-73bf-4d51-a756-f4be39b04bf8",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Mosaic - Google Drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1s9QkEfs6m7clRvcXcGpzIVGU_FqXwp7N"
+         }, {
+            "date_added": "13334879597300725",
+            "date_last_used": "13337723177480482",
+            "guid": "0eb857f1-c1b8-47a6-bc6e-7cc68c211926",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Flyff Universe - Cross-Platform Anime MMORPG | No Download",
+            "type": "url",
+            "url": "https://universe.flyff.com/en/intro/free-web-mmorpg"
+         } ],
+         "date_added": "13325088079011430",
+         "date_last_used": "0",
+         "date_modified": "13334879597300725",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13325088079011431",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13325088079011433",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Cu8BCswBCIiBAhLFARI8CAISOAoGCgJibRABEDMaEgmARufB/gMGACGARufB/gMGADIYChYIAhELtkTS/gMGABgAIQAAAAAAAAAAIACSAX0KNAoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJRspE0v4DBgARRspE0v4DBgApEtpH0v4DBgAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgmA26HM/gMGABGA26HM/gMGAClnx0TS/gMGADCAt4fl7P+AA7oBAggBEgAgASoYZjZLSkFvUTdzVmR2YnFJZ0RIR0JpUT09SAMSwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp4eTNNWUtDWFdiZnRkOE8wNUE1WUlKTklIa1FVNm1HM2xGNlBPeVNYUEVBV1FGNDdlUnY0Z0N3K1BTK0lBTVU1blNqc2JWVkhTalNwaG80ZVpwSUR3cFlIYVdWZz09GAAgACgAMMHNs++okP4COABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAS7AEICxLnAQocbklEcExUb0lRQ3BqTDYybVAxQ25aMmpYa3JJPRJmWjpBRHF0QVp4OGpveWxSSEwwWS9LNzVnZ0Rqcjg2NlRDekwrZjNZY0dLcDNYb0hhVVRFcTJlVURqS1VIYzkvVUN5WTFraXNSNTJ4QUN6YjJMd3BRQ0RUaHN6YTFTVTJaaUFIZz09GAAgAygDMJjTwMet1/8COLf25Y/kMECxl7qgjjFKHG0yd2Zod25xTkttOXVYOGI1V1JFamEyTjdvRT1aHyId/kFHeFhqK2xQOE5CNlRtS3R5UFlPc29XT3Bvcz1lB9kXVBLsAQgNEucBChxYb1JVRkkweVhTNW0zeW5GSnBXZGxUNUt0UFk9EmZaOkFEcXRBWng4am95bFJITDBZL0s3NWdnRGpyODY0cC9GKzQwUG1BSWl5THJnMFpZSnhxc21hSUVGeVgrMGIxSkhqSDFpR3UvMmNpajZwYXJYcmFtNEJwdXBrUzNVN3NlMkdnPT0YACACKAIwp9TuiYST/gI4/eWM7OkwQLvw8I/1MEoceTF3NWRzVkJyTEJTS3BBdGVBK0RwaHBCM3hRPVofIh3/eE5Cb2NjK2ZZR3V1UGIyc2VnTm9oQ1p2dGFvPWXVR000EuwBCAcS5wEKHGVSUWN1cDRnVHpERFZWaHNZRU5WZHNsdThkWT0SZlo6QURxdEFaeDhqb3lsUkhMMFkvSzc1Z2dEanI4NkNEN2NnUlJseld4dHhvdmZlUGNFc3phOXZucDlmb0NUNFpGbTNMckYvcEZPWjk3aFhsQ3ZzN09LL3FnQ1RQcEdQeEhta3c9PRgAIAIoAjCZjoDwqJD+AjjDsNzTvTBAlKW44/QwShxEdno1bVc4UHRTRjE3amJBWmwwa2R4RWJnSTg9Wh8iHdVSUkpRcVFrd2xYdkNGck5uczN6WWVTaGg4N0U9ZZtIoFYS7AEIDBLnAQoca0ZJM3FwcVdKZkY4R2NNTjdEY1NZcWUyZWRZPRJmWjpBRHF0QVp4OGpveWxSSEwwWS9LNzVnZ0Rqcjg2SU5DMENWUWFydG5oTEhBOUtGMnJiV0xsaS8zeHM0aXVoVlBTKythT2dWT3N4NE1mQnBxQXdtZVdqOUdTT3BodWpDWUtQdz09GAAgAigCMKfU7omEk/4COOi0gPHnMEC78PCP9TBKHDlmaHdFSHhqeXFLbDRiT1hGOS9lcHJJeWNGWT1aHyId/2Yrb1U0Ylp3MTdaNkNkNDZpSE56dmJKOGxhND1lOI/IEBLDAQgDEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWnovd0VZN05QakpteDVCd3RqajJNRXV4Wnp5dkF4QjRuUnRSbld5K3J0WG0zbytCNkxUNDA0eXV6MC9aNS9lakR1OHQ3M3pxR2xjWTkwZmxpVEdTVU94RUdYRE9RPT0YACAAKAAwwc2z76iQ/gI4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABLsAQgJEucBChx3WTRWSUFyU0xhNTQ0MnVWVHYzdHNyZkI2ZHc9EmZaOkFEcXRBWng4am95bFJITDBZL0s3NWdnRGpyODZ6QkMzTERjekRBTndtQUxtS2lJMlNVajVGT3RSOFJ0aEtzWUhFZUFPanVSZVJxS0FmSC95MlNkelRSVVAwc1BIWHVuK1B3PT0YACACKAIwp9TuiYST/gI4+N3TzuQwQLvw8I/1MEocOU9Dd1RsOHJUVDdscHpkVGR3b0ZWMkZhL01rPVofIh37dFcvb0RQc1ExS3lody9wMEp5ZVNhdHhwdTRBPWXon2MUEuwBCAoS5wEKHGlDTjR4dWZFZStVbTNreERYTFhWcUVPemRUUT0SZlo6QURxdEFaeDhqb3lsUkhMMFkvSzc1Z2dEanI4NkN1MDJYZlFpUmNMTGdhRW5NMkZoWmVYMUxaQ3JPWXB0Y1Z2QUR2ZFJXNmk3WGJoS09KTVV6YkhtQ2ZEZTQ4eTdoVk8xdFE9PRgAIAIoAjCn1O6JhJP+AjiawaDX4zBAu/Dwj/UwShw3bGtyekFzTk1CZThGNFBaODhJOE82dE43MlU9Wh8iHf1pWTk1eHZaS09ZRjNTZ2JGV1ZNYXYxRElyaGc9ZeifYxQS6wEIBRLmAQocSFBsNkJCZW11L1pIZmRUR1lndkM5c0VyaVl3PRJmWjpBRHF0QVp4OGpveWxSSEwwWS9LNzVnZ0Rqcjg2MjRhSXJadW84WERadjJQTDZxeE4yUFdsQ0JCTGxoamJob0xYTXZoMHNYc3BSZi95SnJIbllDSFphWGtGVzFCSzF4bzNTZz09GAAgAigCMJmOgPCokP4COIyaspjJL0CUpbjj9DBKHEwwUE16UTJlNE5od1RsMVN5ZncyN3plRzVtZz1aHiIcV042UFdYSmxZWkVXc3M5NFF4OHBDRDhaR3ZjPWUULrlrEu0BCA4S6AEKHE1LYVBjTVZMc0tJYm1ER2ZhZXJPMUNqVTZkST0SZlo6QURxdEFaeDhqb3lsUkhMMFkvSzc1Z2dEanI4NjV2NlhGckUxcVEvSmFYN09NS3hQUWV6VE91NHNoREE5VURZcFRMcFc5aUFqOU1CUzV6UzY2Ui9FQnVOQTlUNHl6TldKSHc9PRgAIAIoAjCn1O6JhJP+Aji8/4zs6TBAu/Dwj/UwShxaZ0NhOGFMdGpMYXcxczRoaDVEbW52UVBxQTA9WiAiHv+8cExZNkpTekRyaTNNWmNGa3RXcnlyVW5NRXNVPWWgZtvoEu0BCBES6AEKHEVyTFJ1OVBTK0htRFBHL0lpUThGbjBSaUhLVT0SZlo6QURxdEFaeDhqb3lsUkhMMFkvSzc1Z2dEanI4NllYZG5rczJNVG5XOWcxZ1V6bjh0TENhckc1S0h2WTBtYzVkY04yK0FxQW8zZlNSalYwZUYzMmc3UVdXS2R2SjNsKzNoMkE9PRgAIAIoAjDf+uvS6+KAAzj1lbKgmTFAydjjjaAxShxaRXdTV0pJbzZ6a3VMV21Va0JxYUVFZEc3a0E9WiAiHv/vdDR1Q3NONkV5QWtXdkU1RXQ1VEIyYWladjhrPWXGvoYlEuwBCAYS5wEKHDY3RnpRK0NUcmJPN3RmR2RwWm84aHRvTTBWTT0SZlo6QURxdEFaeDhqb3lsUkhMMFkvSzc1Z2dEanI4Ni9VeE80ZUtkS3F0TmJRNDJGeldoNmxhVmZMaDV4alhpRWczOWgwY2x3QVVCaUpXQ0RGNTRjd1hRQUNkdDE0Y0lQeUlJL0E9PRgAIAQoBDDdvJ2av6T+AjjDsNzTvTBAmov9rfcwShxjMjRKTlZLWHVyVkphMEptZGdRRkR1NlVFSEU9Wh8iHas3WVZuamdzVlFqZGJmSFB3SmtUMDZ0WStjTkE9ZRuPN/IS7QEIDxLoAQocZVFjQ2dQNnk0TGZJcC81aDdIa1YyVS9DTm5FPRJmWjpBRHF0QVp4OGpveWxSSEwwWS9LNzVnZ0Rqcjg2Tm5UVU52MmRPcHVReE0yTFo1N3k0cHdkWmhCQkFxZ2pEYy9IYkRzbWRmM2QzeitRaEZFcjd6bVRDN2xVSEp2TVI4cGZuQT09GAAgAigCMKfU7omEk/4COIGQ1pjuMEC78PCP9TBKHElrQTZjTVRrSUhUNlc3TFJsbmE0aWtzQzlXTT1aICIe/95NVEZZNzkzNGNnTXd1V1NJUkVWbm9ENlJwNGs9ZfqR3tsSqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp6aU5QeXRObmJSSXhkdDVzVzhDM2VMKzkyZ3VPeER6cVhmSlJhVkFvNlZxYUdCa0dzSTRoN2xzNFJHd21vNFBzMCtpRFhxGAAgACgAMMHNs++okP4COABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAwATgA",
+   "version": 1
+}

@@ -1,0 +1,14 @@
+2023/09/16-00:56:15.385 6ac0 Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/16-00:56:15.385 6ac0 Recovering log #548
+2023/09/16-00:56:15.401 6ac0 Reusing old log C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/000548.log 
+2023/09/16-00:56:35.858 55d0 Compacting 1@1 + 3@2 files
+2023/09/16-00:56:35.873 55d0 Generated table #551@1: 2321 keys, 2118166 bytes
+2023/09/16-00:56:35.892 55d0 Generated table #552@1: 2269 keys, 2123039 bytes
+2023/09/16-00:56:35.915 55d0 Generated table #553@1: 2258 keys, 2131066 bytes
+2023/09/16-00:56:35.916 55d0 Generated table #554@1: 48 keys, 51999 bytes
+2023/09/16-00:56:35.916 55d0 Compacted 1@1 + 3@2 files => 6424270 bytes
+2023/09/16-00:56:35.916 55d0 compacted to: files[ 0 0 7 0 0 0 0 ]
+2023/09/16-00:56:35.917 55d0 Delete type=2 #541
+2023/09/16-00:56:35.917 55d0 Delete type=2 #542
+2023/09/16-00:56:35.917 55d0 Delete type=2 #543
+2023/09/16-00:56:35.917 55d0 Delete type=2 #549

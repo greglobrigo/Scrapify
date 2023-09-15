@@ -1,0 +1,6 @@
+2023/07/21-02:19:35.245 23d4 Creating DB C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_open.spotify.com_0.indexeddb.leveldb since it was missing.
+2023/07/21-02:19:35.247 23d4 Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/21-02:19:38.857 53d0 Level-0 table #5: started
+2023/07/21-02:19:38.858 53d0 Level-0 table #5: 13373 bytes OK
+2023/07/21-02:19:38.859 53d0 Delete type=0 #3
+2023/07/21-02:19:38.859 53d0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
