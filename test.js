@@ -18,15 +18,15 @@ async function testPuppeteer(){
         console.log('Sprout Page Loaded')
 
         //Login Page Action
-        await page.waitForSelector('#txtUsername', { visible: true })
-        await page.waitForSelector('#txtPassword', { visible: true })
-        await page.waitForSelector('#btnLogIn', { visible: true })
-        const randomClickX1 = Math.floor(Math.random() * 1000) + 1
-        const randomClickY2 = Math.floor(Math.random() * 1000) + 1
-        const randomClickX3 = Math.floor(Math.random() * 1000) + 1
-        const randomClickY4 = Math.floor(Math.random() * 1000) + 1
-        await page.mouse.click(randomClickX1, randomClickY2, { button: 'left' })
-        await page.mouse.click(randomClickX3, randomClickY4, { button: 'left' })
+        // await page.waitForSelector('#txtUsername', { visible: true })
+        // await page.waitForSelector('#txtPassword', { visible: true })
+        // await page.waitForSelector('#btnLogIn', { visible: true })
+        // const randomClickX1 = Math.floor(Math.random() * 1000) + 1
+        // const randomClickY2 = Math.floor(Math.random() * 1000) + 1
+        // const randomClickX3 = Math.floor(Math.random() * 1000) + 1
+        // const randomClickY4 = Math.floor(Math.random() * 1000) + 1
+        // await page.mouse.click(randomClickX1, randomClickY2, { button: 'left' })
+        // await page.mouse.click(randomClickX3, randomClickY4, { button: 'left' })
         console.log('Keying in Username and Password...')
 
         //Key in Username and Password
