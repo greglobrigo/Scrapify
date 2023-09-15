@@ -13,7 +13,7 @@ async function testPuppeteer(){
             args: ['--disable-extensions', "--force-device-scale-factor=1", "--window-position=0,0, --no-sandbox --disable-setuid-sandbox"],
         });
         const page = await browser.newPage();
-        await page.goto(`${url}`, { waitUntil: 'load' });
+        await page.goto(`${url}`, { waitUntil: 'networkidle0' });
         await new Promise(resolve => setTimeout(resolve, 3000));
         console.log('Sprout Page Loaded')
 
