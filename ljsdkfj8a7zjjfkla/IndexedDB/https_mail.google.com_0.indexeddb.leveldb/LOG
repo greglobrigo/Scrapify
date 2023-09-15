@@ -1,9 +1,0 @@
-2023/09/16-00:55:52.213 6ac0 Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/16-00:55:52.213 6ac0 Recovering log #142
-2023/09/16-00:55:52.216 6ac0 Reusing old log C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/000142.log 
-2023/09/16-00:55:53.717 20e8 Compacting 1@1 + 1@2 files
-2023/09/16-00:55:53.723 20e8 Generated table #145@1: 162 keys, 290133 bytes
-2023/09/16-00:55:53.723 20e8 Compacted 1@1 + 1@2 files => 290133 bytes
-2023/09/16-00:55:53.723 20e8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/09/16-00:55:53.723 20e8 Delete type=2 #140
-2023/09/16-00:55:53.723 20e8 Delete type=2 #143

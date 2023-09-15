@@ -1,6 +1,0 @@
-2023/09/16-00:55:50.131 3e4c Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\Local Storage\leveldb/MANIFEST-000001
-2023/09/16-00:55:50.133 3e4c Recovering log #711
-2023/09/16-00:55:50.135 3e4c Reusing old log C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\Local Storage\leveldb/000711.log 
-2023/09/16-01:26:10.352 2100 Level-0 table #715: started
-2023/09/16-01:26:10.354 2100 Level-0 table #715: 13434 bytes OK
-2023/09/16-01:26:10.355 2100 Delete type=0 #711

@@ -1,7 +1,0 @@
-2023/08/15-11:20:35.970 5e5c Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/15-11:20:35.970 5e5c Recovering log #3
-2023/08/15-11:20:35.971 5e5c Reusing old log C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_photos.google.com_0.indexeddb.leveldb/000003.log 
-2023/08/15-11:21:12.209 504c Level-0 table #5: started
-2023/08/15-11:21:12.210 504c Level-0 table #5: 3519 bytes OK
-2023/08/15-11:21:12.210 504c Delete type=0 #3
-2023/08/15-11:21:12.210 504c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

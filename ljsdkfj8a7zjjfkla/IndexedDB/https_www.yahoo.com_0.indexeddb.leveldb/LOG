@@ -1,6 +1,0 @@
-2023/09/15-01:33:26.117 70fc Creating DB C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_www.yahoo.com_0.indexeddb.leveldb since it was missing.
-2023/09/15-01:33:26.119 70fc Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_www.yahoo.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/15-01:33:29.818 70fc Level-0 table #5: started
-2023/09/15-01:33:29.819 70fc Level-0 table #5: 4225 bytes OK
-2023/09/15-01:33:29.819 70fc Delete type=0 #3
-2023/09/15-01:33:29.820 70fc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

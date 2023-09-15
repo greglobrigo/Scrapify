@@ -1,6 +1,0 @@
-2023/08/04-11:04:24.143 3e10 Creating DB C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_usc-excel.officeapps.live.com_0.indexeddb.leveldb since it was missing.
-2023/08/04-11:04:24.145 3e10 Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_usc-excel.officeapps.live.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/04-13:06:00.887 82c Level-0 table #5: started
-2023/08/04-13:06:00.888 82c Level-0 table #5: 1385 bytes OK
-2023/08/04-13:06:00.889 82c Delete type=0 #3
-2023/08/04-13:06:00.889 82c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

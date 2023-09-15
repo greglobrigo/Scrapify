@@ -1,7 +1,0 @@
-2023/08/10-13:35:07.620 5f48 Reusing MANIFEST C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/10-13:35:07.620 5f48 Recovering log #3
-2023/08/10-13:35:07.620 5f48 Reusing old log C:\Users\goliv\AppData\Local\Google\Chrome\User Data\Profile 5\IndexedDB\https_meet.google.com_0.indexeddb.leveldb/000003.log 
-2023/08/10-13:35:59.968 5f48 Level-0 table #5: started
-2023/08/10-13:35:59.969 5f48 Level-0 table #5: 6089 bytes OK
-2023/08/10-13:35:59.970 5f48 Delete type=0 #3
-2023/08/10-13:35:59.970 5f48 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
