@@ -8,12 +8,12 @@ async function testPuppeteer(){
         const username = process.env.USER
         const password = process.env.PASSWORD
         const browser = await puppeteer.launch({
-            headless: "new",
+            headless: false,
             defaultViewport: { width: 1720, height: 720 },
             args: ['--disable-extensions', "--force-device-scale-factor=1", "--window-position=0,0, --no-sandbox --disable-setuid-sandbox"],
         });
         const page = await browser.newPage();
-        await page.goto(`${url}`, { waitUntil: 'networkidle0' });
+        await page.goto(`${url}`, { waitUntil: 'load' });
         await new Promise(resolve => setTimeout(resolve, 3000));
         console.log('Sprout Page Loaded')
 
