@@ -10,7 +10,7 @@ export const Login = cron.schedule('30 8 * * 1-5', () => {
 });
 
 //Run Every 6:30 PM Monday to Friday
-export const Logout = cron.schedule('30 18 * * 1-5', () => {
+export const Logout = cron.schedule('0 18 * * 1-5', () => {
     new Sprout().initializeLogout();
 },{
     scheduled: true,
