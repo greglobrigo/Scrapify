@@ -8,3 +8,6 @@ _env
 
 # cache
 .cache
+
+sprout_aws.pem
+sprout_aws.pem:Zone.Identifier

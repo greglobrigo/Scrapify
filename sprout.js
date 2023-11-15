@@ -20,6 +20,9 @@ export default class Sprout {
             defaultViewport: { width: 1720, height: 720 },
             args: ['--disable-extensions', "--force-device-scale-factor=1", "--window-position=0,0, --no-sandbox --disable-setuid-sandbox"],
         });
+        await browser.close();
+        console.log('Browser Closed')
+        return
         const page = await browser.newPage();
         await page.goto(`${url}`, { waitUntil: 'load' });
         await new Promise(resolve => setTimeout(resolve, 3000));
